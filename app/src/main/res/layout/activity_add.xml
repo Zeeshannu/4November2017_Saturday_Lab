@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeeshan.a4november2017_saturday_lab.AddActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:hint="name"
+        android:id="@+id/ETName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author"
+        android:id="@+id/ETAuthor"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="status"
+        android:id="@+id/ETStatus"/>
+<Button
+    android:onClick="insert_mybooks"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="submit"
+    android:id="@+id/BTNSubmit"/>
+
+</LinearLayout>
